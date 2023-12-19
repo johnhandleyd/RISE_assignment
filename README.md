@@ -5,8 +5,8 @@
 ### Paths
 In the Jupyter notebook you can find all the code to run this file; it would only be necessary to change some of paths of the following variables or functions:
 - *args* for the Trainer (if to fine-tune the model again)
-- trainer.save_model(*path*)
-- plot_loss(*path*)
+- trainer.save_model(*path*) (to save the model locally if desired)
+- plot_loss(*path*) (to plot the loss with the *trainer_state.json* files)
 
 ### Included files
 These are the files included:
